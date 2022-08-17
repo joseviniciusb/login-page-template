@@ -1,6 +1,17 @@
+import './App.css';
+
 function App() {
   return (
-    <h1>Hello World!</h1>
+    <div className="formContainer">
+    <form className='form'>
+      <label>Usuário</label>
+      <input type="text"></input>
+      <label>Senha</label>
+      <input type="password"></input>
+      <button>Entrar</button>
+    </form>
+    </div>
+
   );
 }
 
